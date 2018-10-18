@@ -29,7 +29,7 @@ COPY . $DIR
 
 RUN set -ex; \
 	cd bashbrew/go; \
-	export GOPATH="$PWD:$PWD/vendor"; \
+	export GOPATH="$PWD:$PWD/ve ndor"; \
 	cd src; \
 	go install -v ./...
 
